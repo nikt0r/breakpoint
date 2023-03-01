@@ -1,0 +1,9 @@
+Set as Authorized {{isAuthorized && flw.count(selection) > 0 ? ("(set on " + flw.count(selection) + " LR" + (flw.count(selection) > 1 ? "s" : "") + ")") : "" }}
+
+{{isAuthorized}}
+{{!open && flw.count(selection) > 0}}
+
+{{!open}}
+
+
+{{isAuthorized && flw.count(selection)>0}}
