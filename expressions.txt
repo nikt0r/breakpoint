@@ -1,0 +1,1 @@
+{{(($temp.selection == 'A1' || $temp.selection == 'A2') && selection != 'C') || ($temp.selection == 'C' && selection != 'A1' && selection != 'A2')}}
